@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Delius", "Bitcount Grid Single";
+    font-style: italic;
+    font-size: 29px;
+}
+
+
+
+    .div_nav_general {
+        font-size: 15px;
+        background-color: #FFF1CB;
+        width: 100%;          /* ocupa todo el ancho disponible */
+        height: 250px;        /* altura fija */
+
+        justify-content: center; /* centra horizontalmente */
+        align-items: center;     /* centra verticalmente */
+        text-align: center;      /* centra el texto dentro del contenedor */
+        box-sizing: border-box;  /* incluye padding/border en el tamaño total */
+        overflow: hidden;        /* oculta texto que se salga */
+        padding: 20px;           /* deja margen interno */
+    
+    }
+
+.div_ejercicios_generales{
+    display: flex;
+    background-color: #957C62;
+    justify-content: space-evenly;
+}
+
+
+li {
+    margin: 10px;
+}
+
+.links_ordenados {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    /* gap: 80px; */
+    background-color: #FFE1AF;
+    width: 100%;
+    
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: #CD2C58;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.links_a:link, .links_a:visited { 
+
+    /* En ambos casos, a los enlaces nuevos y a los visitados, les pone exactamente el mismo color rosa (rgba(225, 0, 255, 0.993)). */
+
+    color: green; /* color rosa, diferente al azul por defecto */
+    text-decoration: none; /* sin subrayado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* otro estilo de texto */
+    font-weight: 600; /* negrita */
+    text-decoration: none;
+}
+.links_a:hover {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* a:visited {
+    color: purple;
+    text-decoration: underline;
+} */
+
+
+
+.links_a:active {
+    color: rgb(225, 0, 255);
+
+}
+
+.links_a:focus {
+    outline: 2px dashed black;
+    background-color: rgb(179, 255, 0);
+    font-weight: bold;
+
+}
+
+
+.prueba_hover:hover {
+    color: rgb(255, 251, 0);
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+
+  }
+
+.libro_harry_potter{
+    width: 290px;
+    height: 450px;
+}
